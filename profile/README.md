@@ -19,6 +19,7 @@ Nexo is a growing collection of personal PWAs that install on your phone's home 
 | | App | What it does |
 |---|---|---|
 | 💰 | [**Finance**](https://finance.krieger2501.de) | Expense, income & recurring commitment tracker |
+| 🥗 | [**Calorie**](https://calorie.krieger2501.de) | Food & weight tracking with Open Food Facts integration |
 | 🔐 | [**Auth**](https://auth.krieger2501.de) | Central OIDC login — Google, GitHub & Discord |
 | 🛠️ | [**Admin**](https://admin.krieger2501.de) | Container management & user access control |
 | 🏠 | [**Landing**](https://krieger2501.de) | App directory & entry point |
@@ -47,8 +48,8 @@ Svelte 5 runes · Drizzle ORM · Better Auth · pino → Loki → Grafana · Cad
 Everything lives in one place → [`nexo-suite/nexo`](https://github.com/nexo-suite/nexo)
 
 ```
-apps/       auth · finance · admin · flaschen · landing · bot
-packages/   db · errors · logger · i18n · email · push · ui
+apps/       auth · finance · calorie · admin · flaschen · landing · bot
+packages/   db · errors · logger · i18n · email · push · security · ui
 ```
 
 ---
